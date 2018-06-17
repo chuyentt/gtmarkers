@@ -1,0 +1,32 @@
+.icon-48-markers {
+      background-image: url(../images/l_markers.png);
+      padding-left:60px!important;
+}
+
+.icon-48-marker {
+      background-image: url(../images/l_markers.png);
+      padding-left:60px!important;
+}
+
+.color-box-markers { 
+      float: left;      width: 15px;      height: 15px;      margin-right: 5px;      border: 1px solid rgba(0, 0, 0, .2);}
+
+
+.icon-48-reviews {
+      background-image: url(../images/l_reviews.png);
+      padding-left:60px!important;
+}
+
+.icon-48-review {
+      background-image: url(../images/l_reviews.png);
+      padding-left:60px!important;
+}
+
+.color-box-reviews { 
+      float: left;      width: 15px;      height: 15px;      margin-right: 5px;      border: 1px solid rgba(0, 0, 0, .2);}
+
+
+
+.other-filters{
+    padding: 0 14px;
+}

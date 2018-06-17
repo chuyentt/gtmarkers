@@ -1,0 +1,32 @@
+<?php
+/**
+ * @version    CVS: 1.0.0
+ * @package    Com_Gtmarkers
+ * @author     Chuyen Trung Tran <chuyentt@gmail.com>
+ * @copyright  2018 Chuyen Trung Tran
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+// No direct access
+defined('_JEXEC') or die;
+
+jimport('joomla.application.component.controllerform');
+
+/**
+ * Import controller class.
+ *
+ * @since  1.6
+ */
+class GtmarkersControllerImport extends JControllerForm
+{
+	/**
+	 * Constructor
+	 *
+	 * @throws Exception
+	 */
+	public function __construct()
+	{
+		$this->view_list = 'imports';
+		parent::__construct();
+	}
+}
